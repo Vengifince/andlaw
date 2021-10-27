@@ -1,0 +1,119 @@
+.andlaw-container {
+  position: relative;
+margin: 20px auto;
+width: 450px;
+min-height: 350px;
+background: #f7f7f7;
+border-radius: 00px 10px 10px 10px;
+border-right: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.andlaw-image
+{
+  position: absolute;
+  right: 11px;
+  bottom: 12px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 1px #e5e5e5;
+opacity: 0.75;
+}
+
+.andlaw-imageback
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 125px;
+  width: 125px;
+  background: var(--accent);
+  border-radius: 0px 10px 10px 10px;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.andlaw-month
+{
+  margin-left: 165px;
+  background: var(--accent);
+text-align: right;
+width: 140px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: #eee;
+padding: 15px;
+font-size: 35px;
+border-radius: 30px 0px 0px 30px;
+border-left: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.andlaw-year
+{margin-left: 225px;
+margin-top: 10px;
+background: var(--accent);
+width: 80px;
+text-align: right;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: #eee;
+padding: 15px;
+font-size: 25px;
+border-radius: 30px 0px 0px 30px;
+border-left: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.andlaw-body{
+  width: 350px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #666666;
+line-height: 25px;
+text-align: justify;
+}
+
+.andlaw-body b
+{color: var(--main)}
+
+.andlaw-body i
+{color: var(--accent);
+  text-decoration: underline;
+}
+
+.andlaw-body hr
+{border: solid 1px #eee}
+
+.andlaw-notes
+
+{font-size: 11px;}
+
+.andlaw-notes a
+{color: var(--accent);
+  text-decoration: none;
+}
+
+.andlaw-notes a::before
+{content: '#';
+color: var(--main);
+}
+
+.andlaw-notes a:hover {
+color: #7A7A7A;
+transition: 0.5s;
+}
+
+.andlaw-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 95px;
+  color: #e5e5e5;
+  text-shadow: 2px 1px 1px #FFF;
+}
+
